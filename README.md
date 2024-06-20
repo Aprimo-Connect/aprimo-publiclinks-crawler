@@ -33,6 +33,9 @@ The CSV file will have the following columns:
 - ItemType: The type of item (Image, Video, Anchor).
 - ItemUrl: The URL of the item.
 
+![image](https://github.com/Aprimo-Connect/aprimo-publiclinks-crawler/assets/37909285/d8ae7712-9558-43ae-8f73-2b4fbe5b850d)
+
+
 ## Limitations
 
 - Dynamic Content: The utility may not work well with sites that load a lot of content dynamically via JavaScript.
