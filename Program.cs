@@ -55,7 +55,7 @@ namespace WebCrawler
     public class Crawler
     {
         private readonly HttpClient _httpClient;
-        private readonly HashSet<string> _visitedUrls;
+        private readonly HashSet<string> _visitedUrls; // Used to track visited URLs and avoid cyclical links
         private readonly List<PageResult> _pageResults;
         private readonly string _aprimoPublicLinksDomain;
         private int _totalItemsFound = 0;
@@ -76,10 +76,13 @@ namespace WebCrawler
 
         private async Task CrawlPageAsync(string baseUrl, string url)
         {
-            if (_visitedUrls.Contains(url)) return;
+            if (_visitedUrls.Contains(url)) return; // Skip if URL has already been visited
 
             _visitedUrls.Add(url);
             Console.WriteLine($"Crawling: {url}");
+
+            // Add a delay to avoid hammering the site
+            await Task.Delay(300);
 
             var pageContent = await GetPageContentAsync(url);
             if (pageContent == null) return;
