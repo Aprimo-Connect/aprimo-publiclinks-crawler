@@ -1,4 +1,4 @@
-# Aprimo Labs Public LInks Webcrawler
+# Aprimo Labs Public Links Webcrawler
 
 **Disclaimer: This is an experimental utility and may not work in all scenarios, such as when dealing with a lot of dynamic content loaded via JavaScript or other edge cases.**
 
