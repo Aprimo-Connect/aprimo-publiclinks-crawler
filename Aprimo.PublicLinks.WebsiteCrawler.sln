@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aprimo.PublicLinks.WebsiteCrawler", "Aprimo.PublicLinks.WebsiteCrawler.csproj", "{FD65EDC3-3D85-436C-990B-92A706B1BF5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD65EDC3-3D85-436C-990B-92A706B1BF5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD65EDC3-3D85-436C-990B-92A706B1BF5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD65EDC3-3D85-436C-990B-92A706B1BF5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD65EDC3-3D85-436C-990B-92A706B1BF5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DEFC8CDE-5C33-4910-A9AC-2E67455BCC9B}
+	EndGlobalSection
+EndGlobal
