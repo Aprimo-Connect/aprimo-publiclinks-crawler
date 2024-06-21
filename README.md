@@ -38,6 +38,8 @@ The CSV file will have the following columns:
 
 ## Limitations
 
+Below are some known limitations of the utility. This may not be a comprehensive list.
+
 - Dynamic Content: The utility may not work well with sites that load a lot of content dynamically via JavaScript.
 - Single Page Applications (SPAs): SPAs often load content dynamically without changing the URL, which this utility will not handle properly.
 - Infinite Scrolling: Pages with infinite scrolling will not be fully crawled since the utility only processes the initially loaded content.
