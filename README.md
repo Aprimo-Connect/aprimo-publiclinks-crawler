@@ -1,4 +1,4 @@
-# Aprimo Labs Public LInks Webcrawler
+# Aprimo Labs Public Links Webcrawler
 
 **Disclaimer: This is an experimental utility and may not work in all scenarios, such as when dealing with a lot of dynamic content loaded via JavaScript or other edge cases.**
 
@@ -33,7 +33,12 @@ The CSV file will have the following columns:
 - ItemType: The type of item (Image, Video, Anchor).
 - ItemUrl: The URL of the item.
 
+![image](https://github.com/Aprimo-Connect/aprimo-publiclinks-crawler/assets/37909285/d8ae7712-9558-43ae-8f73-2b4fbe5b850d)
+
+
 ## Limitations
+
+Below are some known limitations of the utility. This may not be a comprehensive list.
 
 - Dynamic Content: The utility may not work well with sites that load a lot of content dynamically via JavaScript.
 - Single Page Applications (SPAs): SPAs often load content dynamically without changing the URL, which this utility will not handle properly.
