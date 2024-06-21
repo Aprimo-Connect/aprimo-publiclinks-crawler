@@ -182,8 +182,9 @@ namespace WebCrawler
             {
                 return await _httpClient.GetStringAsync(url);
             }
-            catch (HttpRequestException)
+            catch (HttpRequestException ex)
             {
+                Console.WriteLine($"Error crawling {url}: {ex.Message}");
                 return null;
             }
         }
