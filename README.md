@@ -51,3 +51,9 @@ Below are some known limitations of the utility. This may not be a comprehensive
 - WebSocket or AJAX-Loaded Data: Content loaded via WebSockets or AJAX calls after the initial page load will not be captured.
 - Obfuscated or Minified HTML: Pages with heavily obfuscated or minified HTML may cause parsing issues.
 - Sites with Strict Robots.txt: Websites that disallow crawling in their robots.txt file may legally block this utility from accessing certain pages.
+
+# Open Source Policy
+
+For more information about Aprimo's Open Source Policies, please refer to
+https://community.aprimo.com/knowledgecenter/aprimo-connect/aprimo-connect-open-source
+
